@@ -1,15 +1,15 @@
 
 
-class Dog
+class Person
 end
  
-fido = Dog.new
+aaron = Person.new
 
-class Dog
+class Person
 end
  
-fido = Dog.new
-fido.methods
+aaron = Dog.new
+aaron.methods
 
 
 class Dog
