@@ -25,12 +25,12 @@ anduin = Person.new
 thrall.talk
 anduin.talk 
 
-class Dog
-  def bark
-    puts "Woof!"
+class Person  
+  def talk
+    puts "Hello World"
   end 
 end
-fido.bark 
+aaron.talk 
 
 #new line 
 
