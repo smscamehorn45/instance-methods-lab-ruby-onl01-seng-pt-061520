@@ -14,7 +14,7 @@ fido.methods
 
 class Dog
   def bark
-    puts "Woof"
+    puts "Woof!"
   end 
 end
 fido.bark 
@@ -27,7 +27,7 @@ lassie.bark
 
 class Dog
   def bark
-    puts "Woof"
+    puts "Woof!"
   end 
 end
 fido.bark 
