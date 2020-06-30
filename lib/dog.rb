@@ -11,7 +11,7 @@ end
 fido = Dog.new
 fido.methods
 
-class, not a generic procedure we can just call whenever we want.
+class not a generic procedure we can just call whenever we want.
 
 class Dog
   def bark
