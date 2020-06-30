@@ -8,7 +8,7 @@ aaron = Person.new
 class Person
 end
  
-aaron = Dog.new
+aaron = Person.new
 aaron.methods
 
 
