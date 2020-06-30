@@ -1,3 +1,5 @@
+
+
 class Dog
 end
  
@@ -6,19 +8,20 @@ fido = Dog.new
 class Dog
 end
  
-aaron = Person aaron.methods
+fido = Dog.new
+fido.methods
 
 
-class Person
-  def talk
-    puts "Hello World"
+class Dog
+  def bark
+    puts "Woof!"
   end 
 end
-jon.talk 
+fido.bark 
 
 
-lisa = Person.new
-imp = Person.new
+snoopy = Dog.new
+lassie = Dog.new
 snoopy.bark
 lassie.bark 
 
