@@ -34,34 +34,35 @@ aaron.talk
 
 #new line 
 
-class Dog
+
+class Person
 end
  
-fido = Dog.new
+aaron = Person.new
 
-class Dog
+class Person
 end
  
-fido = Dog.new
-fido.methods
+aaron = Person.new
+aaron.methods
 
 
-class Dog
-  def sit
-    puts "The Dog is sitting"
+class Person
+  def walk
+    puts "The Person is walking"
   end 
 end
-fido.bark 
+aaron.walk
 
 
-snoopy = Dog.new
-lassie = Dog.new
-snoopy.sit
-lassie.sit 
+thrall = Person.new
+anduin = Person.new
+thrall.walk
+anduin.walk 
 
-class Dog
-  def sit
-    puts "The Dog is sitting"
+class Person  
+  def walk
+    puts "The Person is walking"
   end 
 end
-fido.sit
+aaron.walk
