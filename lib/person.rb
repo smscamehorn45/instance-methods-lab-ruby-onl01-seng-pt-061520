@@ -12,18 +12,18 @@ aaron = Person.new
 aaron.methods
 
 
-class Dog
-  def bark
-    puts "Woof!"
+class Person
+  def talk
+    puts "Hello World"
   end 
 end
-fido.bark 
+aaron.talk 
 
 
-snoopy = Dog.new
-lassie = Dog.new
-snoopy.bark
-lassie.bark 
+thrall = Person.new
+anduin = Person.new
+thrall.talk
+anduin.talk 
 
 class Dog
   def bark
