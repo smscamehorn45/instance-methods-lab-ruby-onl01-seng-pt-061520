@@ -4,33 +4,6 @@ class Dog
 end
  
 fido = Dog.new
-# => <Dog:0x00564b61e84ab0>
-
-# But what can this instance of a dog stored in the local variable fido do? In fact, how do we even ask this object to do something?
-
-# DOT NOTATION
-
-# We send objects messages asking them to perform an operation or task through a syntax known as "Dot Notation".
-
-fido.object_id 
-# => 46934567548700
-
-# In the example above, we send the fido instance a message object_id by separating the receiving object, fido and the message, object_id by a dot (.). When we send an object a message through dot notation, we are evoking the corresponding method on the object. We are calling the object_id method on fido. (Note: the object_id you get if you test out the above code will be different.)
-
-# The #object_id method simply tells you the object's identifier in your computer's memory (the place where all things live in your computer).
-
-# "I thought of objects being like biological cells and/or individual computers on a network, only able to communicate with messages. - Alan Kay"
-
-# In dot notation, we call the object that received the method message the "receiver" and we call the method the "message".
-
-# The receiver is this very string      
-# reverse is the message
-"Strings are instances and objects too".reverse
-# => "oot stcejbo dna secnatsni era sgnirtS"
-
-# INSTANCE METHODS
-
-# All objects respond to methods and messages, like #object_id in the example above. One interesting method provided is the #methods method that returns an array of all the methods and messages an object responds to. We can evoke this method via dot-notation. One of the great things you can ask every object in Ruby is "What methods do you respond to?"
 
 class Dog
 end
